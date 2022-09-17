@@ -21,8 +21,8 @@ func (d deck) print() { //reciever on deck type
 
 func newDeck() deck {
 	cards := deck{}
-	cardSuits := []string{"Spades", "Hearts", "Diamonds", "Clubs"}
-	cardValues := []string{"Ace", "two", "three", "four", "five"}
+	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
+	cardValues := []string{"Ace", "two", "three", "four"}
 
 	for _, suit := range cardSuits {
 		for _, value := range cardValues {
